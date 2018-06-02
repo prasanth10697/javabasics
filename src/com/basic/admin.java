@@ -1,22 +1,16 @@
 package com.basic;
 
 public class admin {
-public static void main(String s[])
+public static void main(String args[])
 {
-	int N=78945;
-	int t = N;
-	int arr []=new int [10];
-	int i= 0;
-	while(t > 0)
+	int sum = 0;
+	String sum2 = "";
+	for(int i=0;i<args.length;i++)
 	{
-		int remainder=t % 20;
-		arr[i]= remainder;
-		i++;
-		t=t / 5;
+		sum = sum + Integer.parseInt(args[i]);
+		sum2 = sum2 + args[i];
 	}
-	for(i=0;i<10;i++)
-	{
-		System.out.println(arr[i]);
-	}
+	System.out.println(sum);
+	System.out.println(sum2);
 }
 }
