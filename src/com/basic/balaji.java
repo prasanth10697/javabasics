@@ -3,7 +3,7 @@ package com.basic;
 public class balaji {
 public static void main(String args[])
 {
-	int array[]=new int[]{3 , 4, 5, 2, 33, 24, 2, 0};
+	int array[]=new int[]{3 , 4, 5, 2, 33, 24, 2};
 	int max=getMax(array);
 	System.out.println("Maximum Value is:"+max);
 	int min=getMin(array);
