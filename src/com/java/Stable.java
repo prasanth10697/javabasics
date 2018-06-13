@@ -13,7 +13,7 @@ public class Stable {
 	    }
 	    public static int show(int x){
 	    String s=String.valueOf(x);
-	    String a="";
+	    String a=" ";
 	    int password=0;
 	    int count=0;
 	    for(int i=0;i<s.length();i++)
