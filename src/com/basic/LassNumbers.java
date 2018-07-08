@@ -1,4 +1,4 @@
-public class badboy
+public class LassNumbers
 {
 public static void main(String s[])
 {
