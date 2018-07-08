@@ -1,6 +1,7 @@
-public class pream
-{
-public static void main(String s[])
+package com.basic;
+
+public class dream {
+	public static void main(String s[])
 	{
 	int x = 1,
 	Total = 0;
@@ -10,5 +11,6 @@ public static void main(String s[])
 	++x;
 	System.out.println(Total);
 	}
-}
+	}
+
 }

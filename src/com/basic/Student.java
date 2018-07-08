@@ -1,5 +1,5 @@
 package com.basic;
 
-public class Shape {
+public class Student {
 
 }

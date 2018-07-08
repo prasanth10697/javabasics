@@ -1,4 +1,4 @@
-public class gokul
+public class MaxMini
 {
 public static void main(String args[])
 {

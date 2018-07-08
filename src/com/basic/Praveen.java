@@ -1,19 +1,56 @@
-public class Prveen
- public static void main(String args[])
-   {
-      int day, month, year;
-      int second, minute, hour;
-      Praveen date = new Praveen();
- 
-      day = date.get(Calendar.DAY_OF_MONTH);
-      month = date.get(Calendar.MONTH);
-      year = date.get(Calendar.YEAR);
- 
-      second = date.get(Calendar.SECOND);
-      minute = date.get(Calendar.MINUTE);
-      hour = date.get(Calendar.HOUR);
- 
-      System.out.println("Current date is  "+day+"/"+(month+1)+"/"+year);
-      System.out.println("Current time is  "+hour+" : "+minute+" : "+second);
-   }
-}	
+package com.basic;
+
+public class Praveen {
+	int month;
+	int day;
+	int year;
+	
+	public Praveen(int month,int day,int year)
+	{
+	this.month = month;
+		this.day = day;
+		this.year = year;
+	}
+	
+	public int getMonth()
+	{
+		return month;
+	}
+	public void setMonth(int month)
+	{
+		this.month = month;
+	}
+	public int getDay() 
+	{
+		return day;
+	}
+	public void setDay(int day)
+	{
+		this.day = day;
+	}
+	public int getYear()
+	{
+		return year;
+	}
+	public void setYear(int year)
+	{
+		this.year = year;
+	}
+	
+	public void DisplayDate() {
+		System.out.println("month=" + month + ", day=" + day + ", year=" + year  );
+	}
+public static void main(String args[])
+{
+	Praveen pp=new Praveen(06,05,2018);
+	pp.DisplayDate();
+	}
+}
+
+	
+	
+
+	
+	
+
+	
