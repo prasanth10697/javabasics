@@ -1,4 +1,4 @@
-public class ben 
+public class SampleValue
 {
 public static void main(String s[])
 {
