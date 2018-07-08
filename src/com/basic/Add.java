@@ -1,4 +1,4 @@
-public class sir
+public class Add
 {
 public static voin main(String s[])
 {inti,j,k;
