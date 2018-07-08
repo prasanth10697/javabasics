@@ -1,4 +1,4 @@
-public class tamil
+public class Chars
 {
 public static void main(String args[])
 	{
