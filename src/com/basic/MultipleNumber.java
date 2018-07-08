@@ -1,4 +1,4 @@
-public class arun
+public class MultipleNumber
 {
 public static void main(String s[])
 	{
