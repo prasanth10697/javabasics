@@ -1,4 +1,4 @@
-public class prea
+public class Loops
 {
 public static void main(String s[])
 {
